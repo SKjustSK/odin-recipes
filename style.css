@@ -1,0 +1,62 @@
+body {
+    background: #b8f695;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+/* The Odin Project + Other titles */   
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #116D6E;
+}
+
+.available {
+    color: #a4330d ;    
+    font-size: 25px;
+}
+
+/* General Body */
+.list,  
+.para {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #321E1E;
+    padding-left: 10px;;
+}
+
+
+/* Smaller in between titles*/
+.title.smaller {
+    font-size: 35px;
+    text-align: left;
+}
+
+/* Images, to be used in <div> */
+.lasagna,
+.pizza,
+.sandwich {
+    box-sizing: border-box;
+    display: flex;
+    border : 7px solid #321E1E;
+    margin: 0px auto;
+}
+
+/* Lasagna */
+.lasagna {
+    height: auto;
+    width: 400px;
+}
+
+/* Pizza */
+.pizza {
+    height: auto;
+    width: 400px;
+}
+
+/* Sandwich */
+.sandwich {
+    height: auto;
+    width: 500px;
+}
